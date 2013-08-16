@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Aug 2013 12:44:02 AM UTC
+EESchema Schematic File Version 2  date Fri 16 Aug 2013 12:45:24 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,9 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ADAS3022
-EELAYER 43  0
+LIBS:ADP1613
+LIBS:BNC-DAQ-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8

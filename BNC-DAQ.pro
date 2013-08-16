@@ -1,4 +1,4 @@
-update=Thu 15 Aug 2013 12:43:57 AM UTC
+update=Fri 16 Aug 2013 12:45:22 AM UTC
 version=1
 last_client=eeschema
 [cvpcb]
@@ -101,3 +101,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=ADAS3022
+LibName32=ADP1613
