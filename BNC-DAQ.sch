@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 16 Aug 2013 12:45:24 AM UTC
+EESchema Schematic File Version 2  date Sat 17 Aug 2013 01:29:36 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "14 aug 2013"
+Date "17 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,4 +46,242 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 5000 4100 0    60   ~ 0
+SWITCH
+Connection ~ 5450 4100
+Wire Wire Line
+	3050 4100 5450 4100
+Connection ~ 5700 3300
+Connection ~ 5700 4850
+Wire Wire Line
+	5750 4850 5450 4850
+Wire Wire Line
+	5450 4850 5450 3300
+Wire Wire Line
+	5450 3300 5750 3300
+Wire Wire Line
+	6550 3700 6550 3800
+Connection ~ 6600 3300
+Wire Wire Line
+	6850 3300 6550 3300
+Wire Wire Line
+	6350 2950 6600 2950
+Wire Wire Line
+	6600 2950 6600 3300
+Connection ~ 6950 4450
+Wire Wire Line
+	8700 4450 6550 4450
+Wire Wire Line
+	6550 4850 6600 4850
+Wire Wire Line
+	6600 4850 6600 5250
+Wire Wire Line
+	6950 4450 6950 4500
+Connection ~ 7900 4050
+Wire Wire Line
+	7900 4150 7900 4050
+Wire Wire Line
+	8250 4000 8250 4050
+Wire Wire Line
+	8250 4050 7550 4050
+Wire Wire Line
+	7550 4050 7550 4000
+Connection ~ 8250 3550
+Wire Wire Line
+	8250 3550 8250 3600
+Wire Wire Line
+	7600 3550 7500 3550
+Wire Wire Line
+	7500 3550 7500 3300
+Wire Wire Line
+	8700 3550 8200 3550
+Wire Wire Line
+	8150 3300 8300 3300
+Wire Wire Line
+	8300 3300 8300 3550
+Connection ~ 8300 3550
+Wire Wire Line
+	7550 3550 7550 3600
+Connection ~ 7550 3550
+Wire Wire Line
+	6950 4900 6950 4950
+Wire Wire Line
+	6600 5650 6600 5750
+Wire Wire Line
+	6350 5150 6600 5150
+Connection ~ 6600 5150
+Wire Wire Line
+	5950 5150 5700 5150
+Wire Wire Line
+	5700 5150 5700 4850
+Wire Wire Line
+	5950 2950 5700 2950
+Wire Wire Line
+	5700 2950 5700 3300
+Wire Wire Line
+	7250 3300 7650 3300
+Connection ~ 7500 3300
+Wire Wire Line
+	5750 3700 5600 3700
+Wire Wire Line
+	5600 3700 5600 4450
+Wire Wire Line
+	5600 4450 5750 4450
+Wire Wire Line
+	3050 3950 5600 3950
+Connection ~ 5600 3950
+Text Label 5050 3950 0    60   ~ 0
++5V
+$Comp
+L DIODESCH D?
+U 1 1 520ECC3E
+P 7050 3300
+F 0 "D?" H 7050 3400 40  0000 C CNN
+F 1 "BAT54" H 7050 3200 40  0000 C CNN
+	1    7050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSFO L?
+U 1 1 520ECC3F
+P 6150 3500
+F 0 "L?" H 6150 3750 70  0000 C CNN
+F 1 "47uH" H 6150 3200 70  0000 C CNN
+	1    6150 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 520ECC3D
+P 6150 2950
+F 0 "C?" H 6200 3050 50  0000 L CNN
+F 1 "1uF" H 6200 2850 50  0000 L CNN
+	1    6150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 520ECC3C
+P 6550 3800
+F 0 "#PWR?" H 6550 3800 30  0001 C CNN
+F 1 "GND" H 6550 3730 30  0001 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 520ECAF1
+P 6600 5750
+F 0 "#PWR?" H 6600 5750 30  0001 C CNN
+F 1 "GND" H 6600 5680 30  0001 C CNN
+	1    6600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 520ECAD1
+P 6150 5150
+F 0 "C?" H 6200 5250 50  0000 L CNN
+F 1 "1uF" H 6200 5050 50  0000 L CNN
+	1    6150 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODESCH D?
+U 1 1 520ECAAE
+P 6600 5450
+F 0 "D?" H 6600 5550 40  0000 C CNN
+F 1 "BAT54" H 6600 5350 40  0000 C CNN
+	1    6600 5450
+	0    1    1    0   
+$EndComp
+Text Notes 8450 4550 0    60   ~ 0
+-15V
+Text Label 8700 4450 2    60   ~ 0
+VSSH
+$Comp
+L GND #PWR?
+U 1 1 520EC9BB
+P 6950 4950
+F 0 "#PWR?" H 6950 4950 30  0001 C CNN
+F 1 "GND" H 6950 4880 30  0001 C CNN
+	1    6950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 520EC9B0
+P 6950 4700
+F 0 "C?" H 7000 4800 50  0000 L CNN
+F 1 "4.7uF" H 7000 4600 50  0000 L CNN
+	1    6950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 520EC987
+P 7900 4150
+F 0 "#PWR?" H 7900 4150 30  0001 C CNN
+F 1 "GND" H 7900 4080 30  0001 C CNN
+	1    7900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 520EC94F
+P 8250 3800
+F 0 "C?" H 8300 3900 50  0000 L CNN
+F 1 "2.2uF" H 8300 3700 50  0000 L CNN
+	1    8250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 520EC92F
+P 7550 3800
+F 0 "C?" H 7600 3900 50  0000 L CNN
+F 1 "1uF" H 7600 3700 50  0000 L CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 8450 3650 0    60   ~ 0
++15V
+Text Label 8700 3550 2    60   ~ 0
+VDDH
+$Comp
+L R R?
+U 1 1 520EC7B3
+P 7900 3300
+F 0 "R?" V 7980 3300 50  0000 C CNN
+F 1 "1.78" V 7900 3300 50  0000 C CNN
+	1    7900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 520EC756
+P 7900 3550
+F 0 "L?" V 7850 3550 40  0000 C CNN
+F 1 "1uH" V 8000 3550 40  0000 C CNN
+	1    7900 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TRANSFO L?
+U 1 1 520EC6E8
+P 6150 4650
+F 0 "L?" H 6150 4900 70  0000 C CNN
+F 1 "47uH" H 6150 4350 70  0000 C CNN
+	1    6150 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L ADP1613 U?
+U 1 1 520EC5FA
+P 4500 2000
+F 0 "U?" H 4500 1700 60  0000 C CNN
+F 1 "ADP1613" H 4500 2300 60  0000 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
