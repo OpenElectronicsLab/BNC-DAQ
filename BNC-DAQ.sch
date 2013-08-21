@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 20 Aug 2013 12:47:09 AM UTC
+EESchema Schematic File Version 2  date Wed 21 Aug 2013 06:25:10 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "20 aug 2013"
+Date "21 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,67 +46,63 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2500 1050 0    60   ~ 0
-ADA3022 Decoupling capacitors
 Wire Wire Line
-	6100 8650 5650 8650
-Text Label 6100 8650 2    60   ~ 0
-AGND
-Text Label 6100 8550 2    60   ~ 0
-AGND
+	1600 8250 2100 8250
 Wire Wire Line
-	6100 8550 5650 8550
+	2100 8250 2100 7450
 Wire Wire Line
-	6100 8750 5650 8750
-Text Label 6100 8750 2    60   ~ 0
-DGND
-Text Label 6100 8850 2    60   ~ 0
-DGND
+	2100 7450 2750 7450
 Wire Wire Line
-	6100 8850 5650 8850
+	1600 7700 2000 7700
 Wire Wire Line
-	6100 8450 5650 8450
-Text Label 6100 8450 2    60   ~ 0
-DCAP
-Text Label 6100 8350 2    60   ~ 0
-ACAP
+	2000 7700 2000 7250
 Wire Wire Line
-	6100 8350 5650 8350
+	2000 7250 2750 7250
 Wire Wire Line
-	6100 8150 5650 8150
-Text Label 6100 8150 2    60   ~ 0
-AVDD
-Text Label 6100 8250 2    60   ~ 0
-DVDD
+	1600 7100 1900 7100
 Wire Wire Line
-	6100 8250 5650 8250
+	1900 7100 1900 6950
 Wire Wire Line
-	4950 6900 4950 7350
+	1900 6950 2750 6950
 Wire Wire Line
-	5050 6900 5050 7350
-Text Label 5050 6900 3    60   ~ 0
-RCAP
-Text Label 4950 6900 3    60   ~ 0
-REFIN
-Text Label 4750 6900 3    60   ~ 0
-REF2
-Text Label 4850 6900 3    60   ~ 0
-REF1
+	1600 6550 1850 6550
 Wire Wire Line
-	4850 6900 4850 7350
+	1850 6550 1850 6750
 Wire Wire Line
-	4750 6900 4750 7350
-Text Label 4650 6900 3    60   ~ 0
-RGND
+	1850 6750 2750 6750
 Wire Wire Line
-	4650 6900 4650 7350
+	5300 7450 4850 7450
 Wire Wire Line
-	4550 6900 4550 7350
+	5300 7350 4850 7350
+Wire Wire Line
+	5300 7550 4850 7550
+Wire Wire Line
+	5300 7650 4850 7650
+Wire Wire Line
+	5300 7250 4850 7250
+Wire Wire Line
+	5300 7150 4850 7150
+Wire Wire Line
+	5300 6950 4850 6950
+Wire Wire Line
+	5300 7050 4850 7050
+Wire Wire Line
+	4150 5700 4150 6150
+Wire Wire Line
+	4250 5700 4250 6150
+Wire Wire Line
+	4050 5700 4050 6150
+Wire Wire Line
+	3950 5700 3950 6150
+Wire Wire Line
+	3850 5700 3850 6150
+Wire Wire Line
+	3750 5700 3750 6150
 Wire Wire Line
 	1200 1950 4250 1950
 Connection ~ 3000 1950
 Wire Wire Line
-	4250 6900 4250 7350
+	3450 5700 3450 6150
 Connection ~ 5100 3050
 Wire Wire Line
 	5100 3050 5100 3150
@@ -460,22 +456,228 @@ Wire Wire Line
 Wire Wire Line
 	5250 1450 5250 1500
 Wire Wire Line
-	4000 6900 4000 7350
+	3200 5700 3200 6150
 Wire Wire Line
-	4350 6900 4350 7350
+	3550 5700 3550 6150
 Connection ~ 1950 1950
 Wire Wire Line
-	4450 7350 4450 7250
+	3650 6150 3650 6050
 Wire Wire Line
-	4450 7250 4550 7250
-Connection ~ 4550 7250
-Text Label 4550 6900 3    60   ~ 0
+	3650 6050 3750 6050
+Connection ~ 3750 6050
+Wire Wire Line
+	1450 6750 1450 6800
+Wire Wire Line
+	1450 7300 1450 7350
+Wire Wire Line
+	1450 8450 1450 8500
+Wire Wire Line
+	1450 7900 1450 7950
+Wire Wire Line
+	1000 8250 1000 8300
+Wire Wire Line
+	1000 8800 1000 8850
+Wire Wire Line
+	1000 7650 1000 7700
+Wire Wire Line
+	1000 7100 1000 7150
+Wire Wire Line
+	1150 6900 1850 6900
+Wire Wire Line
+	1850 6900 1850 6850
+Wire Wire Line
+	1850 6850 2750 6850
+Wire Wire Line
+	1150 7450 1950 7450
+Wire Wire Line
+	1950 7450 1950 7050
+Wire Wire Line
+	1950 7050 2750 7050
+Wire Wire Line
+	1150 8050 2050 8050
+Wire Wire Line
+	2050 8050 2050 7350
+Wire Wire Line
+	2050 7350 2750 7350
+$Comp
+L BNC P?
+U 1 1 52141EC1
+P 1000 6900
+F 0 "P?" H 1010 7020 60  0000 C CNN
+F 1 "BNC" V 1110 6840 40  0000 C CNN
+	1    1000 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52141EC0
+P 1000 7150
+F 0 "#PWR?" H 1000 7150 30  0001 C CNN
+F 1 "GND" H 1000 7080 30  0001 C CNN
+	1    1000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52141EBF
+P 1000 7700
+F 0 "#PWR?" H 1000 7700 30  0001 C CNN
+F 1 "GND" H 1000 7630 30  0001 C CNN
+	1    1000 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 52141EBE
+P 1000 7450
+F 0 "P?" H 1010 7570 60  0000 C CNN
+F 1 "BNC" V 1110 7390 40  0000 C CNN
+	1    1000 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 52141EBD
+P 1000 8600
+F 0 "P?" H 1010 8720 60  0000 C CNN
+F 1 "BNC" V 1110 8540 40  0000 C CNN
+	1    1000 8600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52141EBC
+P 1000 8850
+F 0 "#PWR?" H 1000 8850 30  0001 C CNN
+F 1 "GND" H 1000 8780 30  0001 C CNN
+	1    1000 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52141EBB
+P 1000 8300
+F 0 "#PWR?" H 1000 8300 30  0001 C CNN
+F 1 "GND" H 1000 8230 30  0001 C CNN
+	1    1000 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 52141EBA
+P 1000 8050
+F 0 "P?" H 1010 8170 60  0000 C CNN
+F 1 "BNC" V 1110 7990 40  0000 C CNN
+	1    1000 8050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 52141EA9
+P 1450 7700
+F 0 "P?" H 1460 7820 60  0000 C CNN
+F 1 "BNC" V 1560 7640 40  0000 C CNN
+	1    1450 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52141EA8
+P 1450 7950
+F 0 "#PWR?" H 1450 7950 30  0001 C CNN
+F 1 "GND" H 1450 7880 30  0001 C CNN
+	1    1450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52141EA7
+P 1450 8500
+F 0 "#PWR?" H 1450 8500 30  0001 C CNN
+F 1 "GND" H 1450 8430 30  0001 C CNN
+	1    1450 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 52141EA6
+P 1450 8250
+F 0 "P?" H 1460 8370 60  0000 C CNN
+F 1 "BNC" V 1560 8190 40  0000 C CNN
+	1    1450 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 521411EA
+P 1450 7100
+F 0 "P?" H 1460 7220 60  0000 C CNN
+F 1 "BNC" V 1560 7040 40  0000 C CNN
+	1    1450 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 521411E9
+P 1450 7350
+F 0 "#PWR?" H 1450 7350 30  0001 C CNN
+F 1 "GND" H 1450 7280 30  0001 C CNN
+	1    1450 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 521411A3
+P 1450 6800
+F 0 "#PWR?" H 1450 6800 30  0001 C CNN
+F 1 "GND" H 1450 6730 30  0001 C CNN
+	1    1450 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 52141188
+P 1450 6550
+F 0 "P?" H 1460 6670 60  0000 C CNN
+F 1 "BNC" V 1560 6490 40  0000 C CNN
+	1    1450 6550
+	-1   0    0    -1  
+$EndComp
+Text Notes 2500 1050 0    60   ~ 0
+ADA3022 Decoupling capacitors
+Text Label 5300 7450 2    60   ~ 0
+AGND
+Text Label 5300 7350 2    60   ~ 0
+AGND
+Text Label 5300 7550 2    60   ~ 0
+DGND
+Text Label 5300 7650 2    60   ~ 0
+DGND
+Text Label 5300 7250 2    60   ~ 0
+DCAP
+Text Label 5300 7150 2    60   ~ 0
+ACAP
+Text Label 5300 6950 2    60   ~ 0
+AVDD
+Text Label 5300 7050 2    60   ~ 0
+DVDD
+Text Label 4250 5700 3    60   ~ 0
+RCAP
+Text Label 4150 5700 3    60   ~ 0
+REFIN
+Text Label 3950 5700 3    60   ~ 0
+REF2
+Text Label 4050 5700 3    60   ~ 0
+REF1
+Text Label 3850 5700 3    60   ~ 0
+RGND
+Text Label 3750 5700 3    60   ~ 0
 REFN
-Text Label 4350 6900 3    60   ~ 0
+Text Label 3550 5700 3    60   ~ 0
 VSSH
-Text Label 4250 6900 3    60   ~ 0
+Text Label 3450 5700 3    60   ~ 0
 VDDH
-Text Label 4000 6900 3    60   ~ 0
+Text Label 3200 5700 3    60   ~ 0
 VSSH
 $Comp
 L C C?
@@ -866,10 +1068,10 @@ $EndComp
 $Comp
 L ADAS3022 U?
 U 1 1 5212A472
-P 4600 8400
-F 0 "U?" H 4600 8250 60  0000 C CNN
-F 1 "ADAS3022" H 4600 8550 60  0000 C CNN
-	1    4600 8400
+P 3800 7200
+F 0 "U?" H 3800 7050 60  0000 C CNN
+F 1 "ADAS3022" H 3800 7350 60  0000 C CNN
+	1    3800 7200
 	1    0    0    -1  
 $EndComp
 Text Notes 9750 1150 0    60   ~ 0
