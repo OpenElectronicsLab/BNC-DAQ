@@ -1,4 +1,4 @@
-update=Fri 16 Aug 2013 12:45:22 AM UTC
+update=Fri 23 Aug 2013 05:08:20 AM UTC
 version=1
 last_client=eeschema
 [cvpcb]
@@ -102,3 +102,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=ADAS3022
 LibName32=ADP1613
+LibName33=sam3x8e
+LibName34=smt-crystals
