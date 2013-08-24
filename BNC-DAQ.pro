@@ -1,4 +1,4 @@
-update=Fri 23 Aug 2013 05:08:20 AM UTC
+update=Sat 24 Aug 2013 01:00:04 AM UTC
 version=1
 last_client=eeschema
 [cvpcb]
@@ -104,3 +104,4 @@ LibName31=ADAS3022
 LibName32=ADP1613
 LibName33=sam3x8e
 LibName34=smt-crystals
+LibName35=sn74hc12x
