@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 24 Aug 2013 01:43:20 AM UTC
+EESchema Schematic File Version 2  date Sat 24 Aug 2013 01:44:51 AM UTC
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1668,7 +1668,7 @@ L SN74HC125 U?
 U 1 1 5218064C
 P 27700 10500
 F 0 "U?" H 27700 10050 60  0000 C CNN
-F 1 "SN74HC125" H 27700 10950 60  0000 C CNN
+F 1 "SN74LVC125" H 27700 10950 60  0000 C CNN
 	1    27700 10500
 	1    0    0    -1  
 $EndComp
